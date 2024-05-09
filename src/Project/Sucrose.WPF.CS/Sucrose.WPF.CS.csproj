@@ -117,5 +117,5 @@
         </ItemGroup>
         <Copy SourceFiles="@(FilesToCopy)" DestinationFiles="@(FilesToCopy->'$(DestinationDirectory)%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" />
     </Target>
-
+    <!-- Lets make change -->
 </Project>
